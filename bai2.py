@@ -9,3 +9,4 @@ def thirdMethod():#định nghĩa hàm
     print("I am the third Method")#in ra một thông báo từ "thirdMethod()"
 def fourthMethod():#định nghĩa hàm
     print("I am the fourth Method")#in ra một thông báo từ "fourthMethod()"
+firstMethod() #Gọi hàm firstMethod() để hiển thị tất cả thông tin

@@ -4,3 +4,5 @@ def powerOfTwo(n):#tạo hàm'powerOfTwo' với tham số n
     else:
         power = powerOfTwo(n-1)#lũy thừa của 2 với giảm giá trị của n
         return power * 2#hàm trả về lũy thừa của 2 với giá trị n.
+n = int(input("Nhập n = "))
+print(powerOfTwo(n))
